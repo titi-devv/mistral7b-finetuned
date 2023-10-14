@@ -39,7 +39,7 @@ pip install -q -U git+https://github.com/huggingface/peft.git
 pip install -q -U git+https://github.com/huggingface/accelerate.git
 pip install -q -U datasets scipy ipywidgets
 pip install wandb -qU
-
+```
 ## Usage
 
 To use this code for fine-tuning Mistral 7B with QLoRA for video game reviews classification, follow these steps:
