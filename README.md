@@ -1,4 +1,4 @@
-# Fine-tuning Mistral 7B using QLoRA for Video Game Reviews Classification
+# ⚙️ Fine-tuning Mistral 7B using QLoRA for Video Game Reviews Classification
 
 This repository contains code for fine-tuning the Mistral 7B language model using QLoRA (Quantization-Based Low-Rank Adaptation) for the task of classifying video game reviews. The goal is to leverage self-supervised fine-tuning to improve the model's performance on a specific downstream task, namely, classifying video game reviews based on their meaning representation.
 
