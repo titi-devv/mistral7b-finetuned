@@ -43,7 +43,11 @@ pip install wandb -qU
 
 ## Results
 
-The code in this repository demonstrates the fine-tuning of Mistral 7B with QLoRA for video game reviews classification. The final model achieved improved performance on the specific downstream task of classifying video game reviews based on their meaning representation. Fine-tuning the model using QLoRA adapters allows it to understand and generate meaningful responses related to video game reviews.
+The code in this repository demonstrates the fine-tuning of Mistral 7B with QLoRA for video game reviews classification. The final model achieved improved performance on the specific downstream task of classifying video game reviews based on their meaning representation. 
+
+**Eval / Loss**
+![image](https://github.com/titi-devv/mistral7b-finetuned/assets/66329321/feb0e1cc-438d-49b4-8f20-06bc41034151)
+
 
 ## License
 
