@@ -40,23 +40,6 @@ pip install -q -U git+https://github.com/huggingface/accelerate.git
 pip install -q -U datasets scipy ipywidgets
 pip install wandb -qU
 ```
-## Usage
-
-To use this code for fine-tuning Mistral 7B with QLoRA for video game reviews classification, follow these steps:
-
-1. **Accelerator Configuration**: Configure the accelerator for distributed training and offloading to CPUs, as needed for your environment.
-
-2. **Load Dataset**: Load the video game reviews dataset for training, validation, and testing.
-
-3. **Tokenization**: Tokenize the dataset using predefined prompts and prepare it for fine-tuning.
-
-4. **Base Model Inspection**: Assess the base model's initial performance on test inputs.
-
-5. **Set Up LoRA**: Configure the LoRA framework and apply QLoRA adapters to specific linear layers of the model.
-
-6. **Training**: Fine-tune the model using the provided training arguments, and monitor the training progress.
-
-7. **Testing**: After training, load the best-performing model checkpoint and test it on sample inputs to evaluate its performance.
 
 ## Results
 
