@@ -6,7 +6,6 @@ This repository contains code for fine-tuning the Mistral 7B language model usin
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
 - [License](#license)
 
